@@ -3,7 +3,7 @@ MAINTAINER "Filip Bielejec" <nodrama.io>
 
 # ENV variables
 ENV NVM_DIR /usr/local/nvm
-ENV NODE_VERSION 11.0.0
+ENV NODE_VERSION 11.14.0
 
 # install system-wide deps
 RUN apt-get update -y \
